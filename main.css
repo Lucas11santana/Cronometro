@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(180deg, rgb(71, 84, 143),rgb(19, 35, 107));
+}
+
+#cronometro{
+    background-color: rgb(32, 32, 32);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600 bold;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 1.5rem;
+    background-color: rgb(32, 32, 32);
+    height: 250px;
+    width: 250px;
+    border: 3px solid rgb(71, 84, 143); 
+    border-radius: 100%;
+    padding: 4rem;
+}
+
+#actions{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+}
+
+#actions button{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: .6rem;
+    border: none;
+    background-color: #f0f8ff;
+    color: rgb(24, 24, 24);
+    cursor: pointer;
+}
+
+#actions button:hover{
+    background-color: #f1f1f1;   
+}
+
+#mark{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+#marcacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    color: white;
+}
+#marcacoes p:first-child{
+    margin-top: 1.5rem;
+}
